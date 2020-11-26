@@ -1,0 +1,25 @@
+{
+  "name": "environmentify",
+  "version": "1.0.0",
+  "description": "![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/markwylde/environmentify?style=flat-square) [![GitHub package.json version](https://img.shields.io/github/package-json/v/markwylde/environmentify?style=flat-square)](https://github.com/markwylde/environmentify/blob/master/package.json) [![GitHub](https://img.shields.io/github/license/markwylde/environmentify?style=flat-square)](https://github.com/markwylde/environmentify/blob/master/LICENSE) [![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg?style=flat-square)](https://github.com/standard/semistandard)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markwylde/environmentify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markwylde/environmentify/issues"
+  },
+  "homepage": "https://github.com/markwylde/environmentify#readme",
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "final-stream": "^2.0.3",
+    "tape": "^5.0.1"
+  }
+}
