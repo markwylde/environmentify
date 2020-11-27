@@ -13,6 +13,7 @@ npm install --save-dev environmentify
 
 ## Example
 ```bash
+export TEST=hello
 browserify -t environmentify -o bundled.js index.js
 ```
 
