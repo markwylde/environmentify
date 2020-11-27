@@ -1,4 +1,4 @@
-const test = require('tape');
+const test = require('basictap');
 const browserify = require('browserify');
 const finalStream = require('final-stream');
 
@@ -16,7 +16,7 @@ test('transforms correctly when undefined', t => {
       return;
     }
 
-    t.ok(result.includes('console.log(undefined)'));
+    t.ok(result.includes('console.log(undefined);\nconsole.log(undefined)'));
   });
 });
 
@@ -36,6 +36,6 @@ test('transforms correctly when defined', t => {
       return;
     }
 
-    t.ok(result.includes('console.log("HELLO")'));
+    t.ok(result.includes('console.log("HELLO");\nconsole.log("HELLO")'));
   });
 });

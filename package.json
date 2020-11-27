@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/markwylde/environmentify#readme",
   "devDependencies": {
+    "basictap": "^1.1.7",
     "browserify": "^17.0.0",
-    "final-stream": "^2.0.3",
-    "tape": "^5.0.1"
+    "final-stream": "^2.0.3"
   }
 }

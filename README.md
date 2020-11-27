@@ -15,3 +15,17 @@ npm install --save-dev environmentify
 ```bash
 browserify -t environmentify -o bundled.js index.js
 ```
+
+```javascript
+// index.js
+console.log(process.env.TEST)
+console.log(process.env['TEST'])
+console.log(process.env.NOTHING)
+```
+
+```javascript
+// bundled.js
+console.log("hello")
+console.log("hello")
+console.log(undefined)
+```
